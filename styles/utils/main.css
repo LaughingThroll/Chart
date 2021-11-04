@@ -1,0 +1,24 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+html, body {
+  box-sizing: inherit;
+}
+
+button,
+body {
+  font-family: UbuntuRegular, sans-serif;  
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.1;
+}
+
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  width: 100%;
+  margin: 0 auto;
+}

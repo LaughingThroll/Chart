@@ -10,10 +10,37 @@
 </head>
 <body>
   <main class="main-chart">
-    <h1>Chart</h1>
+    <div class="container main-chart__container">
+      <h1 class="main-chart__title title">Followers</h1>
+      <canvas class="main-chart__canvas chart"></canvas>
+      <canvas class="main-chart__slider chart-slider"></canvas>
+      <div class="main-chart__checkboxes">
+        <label class="main-chart__checkbox checkbox">
+          <input class="checkbox__input" type="checkbox">
+          <div class="checkbox__label">Joined</div>
+        </label>
+        <label class="main-chart__checkbox checkbox">
+          <input class="checkbox__input" type="checkbox">
+          <div class="checkbox__label">Left</div>
+        </label>
+      </div>
 
+      <button type="button" class="main-chart__button button">Switch to Night Mode</button>
 
-
+      <div class="chart-label" style="display: none;">
+        <div class="chart-label__date">Sat, Feb 24</div>
+        <div class="chart-label__box">
+          <div class="chart-label__counter counter">
+            <div class="counter__number">142</div>
+            <div class="counter__text">Joined</div>
+          </div>
+          <div class="chart-label__counter counter">
+            <div class="counter__number">47</div>
+            <div class="counter__text">Left</div>
+          </div>
+        </div>
+      </div>
+  </div>
   </main>
 
 
