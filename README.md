@@ -1,1 +1,1 @@
-# Chart
+# Chart only JavaScript
