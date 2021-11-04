@@ -1,0 +1,23 @@
+@import './utils/normalize.css';
+@import './utils/fonts.css';
+@import './utils/reset.css';
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+html, body {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: UbuntuRegular, sans-serif;  
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.1;
+}
+
+
+
